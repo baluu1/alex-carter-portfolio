@@ -1,0 +1,563 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Alex Carter — Photographer &amp; Visual Director, London</title>
+<meta name="description" content="Alex Carter is a photographer and visual director in London working with boutique hospitality, lifestyle and fashion brands. Concept, light key, sequence — images that make a place feel like somewhere people want to be.">
+<meta name="theme-color" content="#F2EEE7">
+
+<!-- ────────────────────────────────────────────────────────────────
+     Absolute URLs below are required for social previews (relative ones
+     do not work). If you move to a custom domain, replace
+     https://alex-carter-portfolio.vercel.app here, in sitemap.xml and
+     in robots.txt.
+     ──────────────────────────────────────────────────────────────── -->
+<link rel="canonical" href="https://alex-carter-portfolio.vercel.app/">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Alex Carter Studio">
+<meta property="og:locale" content="en_GB">
+<meta property="og:locale:alternate" content="hu_HU">
+<meta property="og:url" content="https://alex-carter-portfolio.vercel.app/">
+<meta property="og:title" content="Alex Carter — Photographer &amp; Visual Director, London">
+<meta property="og:description" content="Images that make brands feel like places people want to be.">
+<meta property="og:image" content="https://alex-carter-portfolio.vercel.app/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Alex Carter, photographer and visual director, London.">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Alex Carter — Photographer &amp; Visual Director, London">
+<meta name="twitter:description" content="Images that make brands feel like places people want to be.">
+<meta name="twitter:image" content="https://alex-carter-portfolio.vercel.app/og.jpg">
+
+<link rel="icon" href="/favicon.ico" sizes="32x32">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600&family=Instrument+Serif:ital@0;1&display=swap">
+
+<link rel="preload" as="image" href="assets/alex-figure.avif" type="image/avif"
+      imagesrcset="assets/alex-figure-sm.avif 340w, assets/alex-figure.avif 546w"
+      imagesizes="(max-width: 767px) 62vw, 36vw" fetchpriority="high">
+
+<link rel="stylesheet" href="style.css">
+
+<script>
+  /* Set the pre-animation state only when JS + motion are both available,
+     so the hero is never hidden for no-JS or reduced-motion visitors. */
+  (function () {
+    var root = document.documentElement;
+    root.classList.add('has-js');
+    var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if (!reduce) root.setAttribute('data-intro', 'pending');
+  })();
+</script>
+</head>
+
+<body>
+<a class="skip-link" href="#work" data-i18n="skip">Skip to selected work</a>
+
+<!-- ============================= NAV ============================= -->
+<header class="nav" id="nav">
+  <div class="nav__inner">
+    <a class="nav__brand" href="#top">
+      <span class="nav__brand-name">Alex Carter</span>
+      <span class="nav__brand-sub">Studio</span>
+    </a>
+
+    <nav class="nav__links" aria-label="Primary" data-i18n-aria="nav.primary">
+      <a href="#work" data-i18n="nav.work">Work</a>
+      <a href="#about" data-i18n="nav.about">About</a>
+      <a href="#services" data-i18n="nav.services">Services</a>
+      <a href="#contact" data-i18n="nav.contact">Contact</a>
+    </nav>
+
+    <div class="lang" role="group" aria-label="Language / Nyelv">
+      <button class="lang__btn is-active" type="button" data-lang="en"
+              aria-pressed="true" lang="en">EN</button>
+      <span class="lang__sep" aria-hidden="true">/</span>
+      <button class="lang__btn" type="button" data-lang="hu"
+              aria-pressed="false" lang="hu">HU</button>
+    </div>
+
+    <a class="nav__cta" href="#contact" data-i18n="cta.start">Start a project</a>
+
+    <button class="nav__toggle" id="navToggle" type="button"
+            aria-expanded="false" aria-controls="mobileMenu">
+      <span class="nav__toggle-label" data-i18n="nav.menu">Menu</span>
+      <span class="nav__toggle-bars" aria-hidden="true"><i></i><i></i></span>
+    </button>
+  </div>
+</header>
+
+<div class="menu" id="mobileMenu" hidden>
+  <nav class="menu__links" aria-label="Mobile" data-i18n-aria="nav.mobile">
+    <a href="#work"><span class="menu__no">01</span> <span data-i18n="nav.work">Work</span></a>
+    <a href="#about"><span class="menu__no">02</span> <span data-i18n="nav.about">About</span></a>
+    <a href="#services"><span class="menu__no">03</span> <span data-i18n="nav.services">Services</span></a>
+    <a href="#focus"><span class="menu__no">04</span> <span data-i18n="nav.currently">Currently</span></a>
+    <a href="#contact"><span class="menu__no">05</span> <span data-i18n="nav.contact">Contact</span></a>
+  </nav>
+  <div class="menu__foot">
+    <a class="btn btn--solid btn--block" href="#contact" data-i18n="cta.start">Start a project</a>
+    <p class="menu__meta">London, UK · <a href="mailto:hello@alexcarter.studio">hello@alexcarter.studio</a></p>
+  </div>
+</div>
+
+<main id="top">
+
+<!-- ============================= HERO ============================= -->
+<section class="hero" id="hero">
+  <div class="hero__bg" aria-hidden="true">
+    <div class="hero__shadow"></div>
+    <div class="hero__shaft"></div>
+  </div>
+
+  <div class="hero__grid">
+
+    <p class="hero__eyebrow">
+      <span>Alex Carter Studio</span>
+      <span class="hero__eyebrow-loc">London, UK · 51.5074° N</span>
+    </p>
+
+    <h1 class="hero__masthead">
+      <span class="hero__word" data-intro-word>Alex</span>
+      <span class="hero__word hero__word--2" data-intro-word>Carter</span>
+    </h1>
+
+    <p class="hero__role" data-intro-item data-i18n-html="hero.role">
+      Photographer <span class="amp">&amp;</span> Visual&nbsp;Director
+    </p>
+
+    <div class="hero__statement" data-intro-item>
+      <p data-i18n-html="hero.statement">I create images that make brands feel like<br class="br-lg"> places people want to be.</p>
+    </div>
+
+    <div class="hero__actions" data-intro-item>
+      <a class="btn btn--solid" href="#contact" data-i18n="cta.start">Start a project</a>
+      <a class="btn btn--ghost" href="#work" data-i18n="cta.work">Selected work</a>
+    </div>
+  </div>
+
+  <div class="hero__stage" aria-hidden="false">
+    <picture class="hero__figure" id="heroFigure">
+      <source type="image/avif"
+              srcset="assets/alex-figure-sm.avif 340w, assets/alex-figure.avif 546w"
+              sizes="(max-width: 767px) 62vw, 36vw">
+      <img src="assets/alex-figure.png" width="420" height="1180"
+           alt="Alex Carter at full length, camera in hand, lit from behind by warm low sun."
+           data-i18n-alt="alt.figure"
+           fetchpriority="high" decoding="async">
+    </picture>
+  </div>
+
+  <div class="hero__rail" data-intro-item>
+    <ul class="rail">
+      <li><span class="rail__k" data-i18n="rail.based">Based</span><span class="rail__v">London</span></li>
+      <li><span class="rail__k" data-i18n="rail.since">Shooting since</span><span class="rail__v" data-i18n="rail.since.v">2021</span></li>
+      <li><span class="rail__k" data-i18n="rail.fields">Fields</span><span class="rail__v" data-i18n="rail.fields.v">Hospitality · Lifestyle · Fashion</span></li>
+    </ul>
+    <a class="hero__cue" href="#work">
+      <span data-i18n="hero.scroll">Scroll</span>
+      <svg width="10" height="34" viewBox="0 0 10 34" fill="none" aria-hidden="true">
+        <path d="M5 0v30M1 26l4 4 4-4" stroke="currentColor" stroke-width="1"/>
+      </svg>
+    </a>
+  </div>
+</section>
+
+<!-- ============================= WORK ============================= -->
+<section class="work" id="work">
+
+  <header class="work__intro">
+    <p class="eyebrow"><span class="eyebrow__rule"></span><span data-i18n="work.eyebrow">Selected work</span></p>
+    <h2 class="work__title" data-i18n-html="work.title">Three&nbsp;treatments.</h2>
+    <div class="work__lede">
+      <p data-i18n="work.lede1">Not much of this job happens with a camera in your hands. It happens earlier — deciding what
+         a place is supposed to feel like, then working backwards to the frames that prove it.</p>
+      <p data-i18n="work.lede2">Below are three self-initiated concepts: the light key, the sequence, and the one decision
+         that holds each set together.</p>
+    </div>
+    <p class="work__note" data-i18n="work.note">Concept development — treatment plates and shot notes, not final photography.</p>
+  </header>
+
+  <!-- ---------- PROJECT 01 — contact sheet ---------- -->
+  <article class="project project--01" id="project-01" aria-labelledby="p01-title">
+    <div class="project__head">
+      <span class="project__no">01</span>
+      <div class="project__id">
+        <h3 class="project__title" id="p01-title">The Hoxton Morning</h3>
+        <p class="project__cat" data-i18n="p01.cat">Boutique hospitality / Lifestyle</p>
+      </div>
+      <dl class="project__spec">
+        <div><dt data-i18n="spec.role">Role</dt><dd data-i18n="p01.role">Photography &amp; Visual Direction</dd></div>
+        <div><dt data-i18n="spec.light">Light key</dt><dd data-i18n="p01.light">North window, 07:10 – 09:30</dd></div>
+        <div><dt data-i18n="p01.frames.k">Frames</dt><dd data-i18n="p01.frames.v">Six, sequenced</dd></div>
+      </dl>
+    </div>
+
+    <div class="project__body">
+      <p class="project__concept" data-i18n="p01.concept">A quiet morning inside a contemporary London boutique hotel.</p>
+      <div class="project__cols">
+        <div class="project__col">
+          <h4 class="micro" data-i18n="lbl.problem">The problem</h4>
+          <p data-i18n="p01.problem">Hotel photography sells a room. It almost never sells a morning. Everything is made,
+             folded and lit an hour before anyone would actually be awake.</p>
+        </div>
+        <div class="project__col project__col--key">
+          <h4 class="micro" data-i18n="lbl.decision">The decision</h4>
+          <p data-i18n-html="p01.decision">Photograph the moments <em>between</em> actions. The pause before the cup is picked up,
+             the sheet still holding a shape. Nobody performs hospitality.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="sheet" data-drift>
+      <div class="sheet__track" id="sheetTrack">
+        <figure class="plate plate--morning">
+          <div class="plate__field"><span class="plate__light"></span></div>
+          <figcaption>
+            <span class="plate__no">01</span>
+            <span class="plate__cap" data-i18n="p01.cap1">Window light crossing an unmade bed. Nobody in frame yet.</span>
+            <span class="plate__exif">35mm · f/2 · 1/125</span>
+          </figcaption>
+        </figure>
+        <figure class="plate plate--morning plate--tall">
+          <div class="plate__field"><span class="plate__light"></span></div>
+          <figcaption>
+            <span class="plate__no">02</span>
+            <span class="plate__cap" data-i18n="p01.cap2">Steam off a flat white, backlit. Hands only.</span>
+            <span class="plate__exif">50mm · f/1.8 · 1/250</span>
+          </figcaption>
+        </figure>
+        <figure class="plate plate--morning">
+          <div class="plate__field"><span class="plate__light"></span></div>
+          <figcaption>
+            <span class="plate__no">03</span>
+            <span class="plate__cap" data-i18n="p01.cap3">Linen, folded once, against a warm shadow.</span>
+            <span class="plate__exif">85mm · f/2.8 · 1/160</span>
+          </figcaption>
+        </figure>
+        <figure class="plate plate--morning plate--wide">
+          <div class="plate__field"><span class="plate__light"></span></div>
+          <figcaption>
+            <span class="plate__no">04</span>
+            <span class="plate__cap" data-i18n="p01.cap4">A guest crossing the lobby, half in shade.</span>
+            <span class="plate__exif">35mm · f/2.8 · 1/320</span>
+          </figcaption>
+        </figure>
+        <figure class="plate plate--morning">
+          <div class="plate__field"><span class="plate__light"></span></div>
+          <figcaption>
+            <span class="plate__no">05</span>
+            <span class="plate__cap" data-i18n="p01.cap5">Brass tap, water, one second of nothing happening.</span>
+            <span class="plate__exif">50mm · f/2 · 1/200</span>
+          </figcaption>
+        </figure>
+        <figure class="plate plate--morning plate--tall">
+          <div class="plate__field"><span class="plate__light"></span></div>
+          <figcaption>
+            <span class="plate__no">06</span>
+            <span class="plate__cap" data-i18n="p01.cap6">The room from the doorway. Door frame left in.</span>
+            <span class="plate__exif">24mm · f/4 · 1/60</span>
+          </figcaption>
+        </figure>
+      </div>
+      <p class="sheet__hint" aria-hidden="true" data-i18n="sheet.hint">Contact sheet — scroll sideways</p>
+    </div>
+  </article>
+
+  <!-- ---------- PROJECT 02 — cinematic pinned sequence ---------- -->
+  <article class="project project--02" id="project-02" aria-labelledby="p02-title">
+    <div class="project__head project__head--invert">
+      <span class="project__no">02</span>
+      <div class="project__id">
+        <h3 class="project__title" id="p02-title">After Hours / Soho</h3>
+        <p class="project__cat" data-i18n="p02.cat">Restaurant / Nightlife editorial</p>
+      </div>
+      <dl class="project__spec">
+        <div><dt data-i18n="spec.role">Role</dt><dd data-i18n="p02.role">Photography &amp; Creative Direction</dd></div>
+        <div><dt data-i18n="spec.light">Light key</dt><dd data-i18n="p02.light">Practical warm → street sodium</dd></div>
+        <div><dt data-i18n="p02.runs.k">Runs</dt><dd>21:00 – 01:00</dd></div>
+      </dl>
+    </div>
+
+    <div class="project__body project__body--invert">
+      <p class="project__concept" data-i18n="p02.concept">A Soho restaurant moving from dinner into late evening.</p>
+      <div class="project__cols">
+        <div class="project__col">
+          <h4 class="micro" data-i18n="lbl.problem">The problem</h4>
+          <p data-i18n="p02.problem">Restaurant photography documents dishes. It rarely tells you what the room sounds like
+             at eleven, which is the only thing anyone is actually booking.</p>
+        </div>
+        <div class="project__col project__col--key">
+          <h4 class="micro" data-i18n="lbl.decision">The decision</h4>
+          <p data-i18n="p02.decision">Shoot the reflections rather than the subjects. Glass, chrome, wet pavement — the room
+             appears twice in most frames, and never quite the same way.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- pinned sequence -->
+    <div class="seq" id="seq">
+      <div class="seq__viewport">
+        <div class="seq__frames">
+          <figure class="seq__frame is-active" data-frame="0">
+            <div class="plate__field"><span class="plate__light"></span></div>
+          </figure>
+          <figure class="seq__frame" data-frame="1">
+            <div class="plate__field"><span class="plate__light"></span></div>
+          </figure>
+          <figure class="seq__frame" data-frame="2">
+            <div class="plate__field"><span class="plate__light"></span></div>
+          </figure>
+          <figure class="seq__frame" data-frame="3">
+            <div class="plate__field"><span class="plate__light"></span></div>
+          </figure>
+          <figure class="seq__frame" data-frame="4">
+            <div class="plate__field"><span class="plate__light"></span></div>
+          </figure>
+        </div>
+
+        <div class="seq__hud">
+          <p class="seq__clock"><span id="seqClock">21:10</span></p>
+          <ol class="seq__caps">
+            <li class="is-active"><span class="seq__i">01</span> <span data-i18n="p02.cap1">Last of the daylight against the first candle.</span> <em>35mm · f/1.4</em></li>
+            <li><span class="seq__i">02</span> <span data-i18n="p02.cap2">Service in the pass, reflected in the window.</span> <em>50mm · f/1.4</em></li>
+            <li><span class="seq__i">03</span> <span data-i18n="p02.cap3">Chrome, condensation, a hand reaching.</span> <em>85mm · f/2</em></li>
+            <li><span class="seq__i">04</span> <span data-i18n="p02.cap4">The room, doubled in the glass.</span> <em>24mm · f/2</em></li>
+            <li><span class="seq__i">05</span> <span data-i18n="p02.cap5">Street outside. Sodium and rain.</span> <em>35mm · f/1.4</em></li>
+          </ol>
+          <div class="seq__bar" aria-hidden="true"><span id="seqBar"></span></div>
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <!-- ---------- PROJECT 03 — kinetic spread ---------- -->
+  <article class="project project--03" id="project-03" aria-labelledby="p03-title">
+    <!-- pull phrase, not a repeat of the title below: the blurred echo layer
+         is the project's own idea (sharp body, moving fabric) made typographic -->
+    <div class="kinetic" aria-hidden="true">
+      <span class="kinetic__echo" data-kinetic data-i18n="p03.kinetic">Held mid-turn.</span>
+      <span class="kinetic__main" data-kinetic data-i18n="p03.kinetic">Held mid-turn.</span>
+    </div>
+
+    <div class="project__head">
+      <span class="project__no">03</span>
+      <div class="project__id">
+        <h3 class="project__title" id="p03-title">Form &amp; Motion</h3>
+        <p class="project__cat" data-i18n="p03.cat">Fashion / Editorial</p>
+      </div>
+      <dl class="project__spec">
+        <div><dt data-i18n="spec.role">Role</dt><dd data-i18n="p03.role">Photography &amp; Art Direction</dd></div>
+        <div><dt data-i18n="spec.light">Light key</dt><dd data-i18n="p03.light">Hard midday, concrete bounce</dd></div>
+        <div><dt data-i18n="p03.setup.k">Setup</dt><dd data-i18n="p03.setup.v">One wall, one source</dd></div>
+      </dl>
+    </div>
+
+    <div class="spread">
+      <div class="spread__text">
+        <p class="project__concept" data-i18n="p03.concept">A minimal independent fashion campaign built on movement and silhouette.</p>
+        <h4 class="micro" data-i18n="lbl.problem">The problem</h4>
+        <p data-i18n="p03.problem">Motion usually costs you the garment. The clothes go soft and the shape goes with them,
+           and you end up with an atmosphere nobody can buy.</p>
+        <h4 class="micro" data-i18n="lbl.decision">The decision</h4>
+        <p data-i18n="p03.decision">Fix the body sharp and let only the fabric blur. One wall, one source, no styling tricks —
+           so the difference between frames is the movement and nothing else.</p>
+      </div>
+
+      <figure class="plate plate--motion spread__a">
+        <div class="plate__field"><span class="plate__light"></span></div>
+        <figcaption>
+          <span class="plate__no">01</span>
+          <span class="plate__cap" data-i18n="p03.cap1">Coat, mid-turn. Body sharp, hem gone.</span>
+          <span class="plate__exif">85mm · f/8 · 1/60</span>
+        </figcaption>
+      </figure>
+
+      <figure class="plate plate--motion spread__b">
+        <div class="plate__field"><span class="plate__light"></span></div>
+        <figcaption>
+          <span class="plate__no">02</span>
+          <span class="plate__cap" data-i18n="p03.cap2">Silhouette against concrete. Negative space doing the work.</span>
+          <span class="plate__exif">50mm · f/11 · 1/500</span>
+        </figcaption>
+      </figure>
+
+      <figure class="plate plate--motion spread__c">
+        <div class="plate__field"><span class="plate__light"></span></div>
+        <figcaption>
+          <span class="plate__no">03</span>
+          <span class="plate__cap" data-i18n="p03.cap3">Wind, held for a quarter second.</span>
+          <span class="plate__exif">35mm · f/8 · 1/30</span>
+        </figcaption>
+      </figure>
+    </div>
+  </article>
+</section>
+
+<!-- ============================= STREET ============================= -->
+<section class="street" aria-labelledby="street-title">
+  <figure class="street__img">
+    <picture>
+      <source type="image/avif" media="(max-width: 767px)" srcset="assets/london-street-sm.avif">
+      <source type="image/avif" srcset="assets/london-street.avif">
+      <img src="assets/london-street.jpg" width="1022" height="1534" loading="lazy" decoding="async"
+           alt="Alex Carter walking a golden retriever along a wet London street, black cab and Victorian lamp post behind." data-i18n-alt="alt.street">
+    </picture>
+    <figcaption class="street__cred" data-i18n="street.cred">Clerkenwell, after rain · 35mm</figcaption>
+  </figure>
+
+  <div class="street__text">
+    <p class="eyebrow eyebrow--light"><span class="eyebrow__rule"></span><span data-i18n="street.eyebrow">Natural human moments</span></p>
+    <h2 class="street__title" id="street-title" data-i18n-html="street.title">Most of what I want<br> happens in the half second<br> before someone arranges<br> themselves.</h2>
+    <p class="street__body" data-i18n="street.body">Which is why I shoot long, stay quiet, and keep the camera up between
+       the shots everybody expects. The frame that ends up on the wall is usually the one nobody
+       noticed being taken.</p>
+  </div>
+</section>
+
+<!-- ============================= ABOUT ============================= -->
+<section class="about" id="about" aria-labelledby="about-title">
+  <p class="eyebrow"><span class="eyebrow__rule"></span><span data-i18n="about.eyebrow">About</span></p>
+
+  <div class="about__lead">
+    <h2 class="about__title" id="about-title" data-i18n="about.title">A beautiful photograph is easy to admire and easy to forget.</h2>
+  </div>
+
+  <figure class="about__portrait">
+    <picture>
+      <source type="image/avif" media="(max-width: 767px)" srcset="assets/alex-portrait-sm.avif">
+      <source type="image/avif" srcset="assets/alex-portrait.avif">
+      <img src="assets/alex-portrait.jpg" width="1448" height="1086" loading="lazy" decoding="async"
+           alt="Portrait of Alex Carter beside a studio window, arms folded." data-i18n-alt="alt.portrait">
+    </picture>
+  </figure>
+
+  <div class="about__copy">
+    <p data-i18n="about.p1">I started photographing in London in 2021 — street work first, then portraits, mostly
+       because it gave me a reason to be out in the city at the right time of day.</p>
+    <p data-i18n="about.p2">Commercial work arrived through hospitality, and somewhere in there the job quietly changed.
+       A single good frame is easy to make and easy to lose. A set of images that agree with each
+       other is what actually changes how a place feels.</p>
+    <p data-i18n="about.p3">So now the work starts earlier: deciding what deserves attention. Where the light comes from,
+       how people move through a room, which three details somebody still remembers a week later —
+       and then making sure forty frames say the same thing.</p>
+    <p data-i18n="about.p4">I use available light wherever it's possible. I'd rather wait twenty minutes for a room to
+       be right than fix it afterwards.</p>
+  </div>
+
+  <figure class="about__context">
+    <picture>
+      <source type="image/avif" media="(max-width: 767px)" srcset="assets/london-rooftop-sm.avif">
+      <source type="image/avif" srcset="assets/london-rooftop.avif">
+      <img src="assets/london-rooftop.jpg" width="1022" height="1534" loading="lazy" decoding="async"
+           alt="Alex Carter on a rooftop above the City of London at dusk, camera in hand." data-i18n-alt="alt.rooftop">
+    </picture>
+    <figcaption data-i18n="about.cred">Rooftop, City of London · last light</figcaption>
+  </figure>
+</section>
+
+<!-- ============================= SERVICES ============================= -->
+<section class="services" id="services" aria-labelledby="services-title">
+  <div class="services__head">
+    <p class="eyebrow eyebrow--light"><span class="eyebrow__rule"></span><span data-i18n="services.eyebrow">Services</span></p>
+    <h2 class="services__title" id="services-title" data-i18n-html="services.title">What I'm&nbsp;hired&nbsp;for</h2>
+  </div>
+
+  <figure class="services__img">
+    <picture>
+      <source type="image/avif" media="(max-width: 767px)" srcset="assets/studio-window-sm.avif">
+      <source type="image/avif" srcset="assets/studio-window.avif">
+      <img src="assets/studio-window.jpg" width="1022" height="1534" loading="lazy" decoding="async"
+           alt="Alex Carter leaning against a studio desk beside a large industrial window." data-i18n-alt="alt.studio">
+    </picture>
+  </figure>
+
+  <ol class="index">
+    <li class="index__row">
+      <span class="index__no">01</span>
+      <h3 class="index__name" data-i18n-html="svc1.name">Brand<br>Photography</h3>
+      <p class="index__desc" data-i18n="svc1.desc">A library, not a shoot. Enough frames in one visual language to carry a
+         site rebuild, a season of campaigns and a year of social without the set drifting apart.</p>
+    </li>
+    <li class="index__row">
+      <span class="index__no">02</span>
+      <h3 class="index__name" data-i18n-html="svc2.name">Hospitality &amp;<br>Lifestyle Campaigns</h3>
+      <p class="index__desc" data-i18n="svc2.desc">Rooms, food, people and street treated as one place. Shot across a full
+         day so the light carries the story instead of contradicting it every third image.</p>
+    </li>
+    <li class="index__row">
+      <span class="index__no">03</span>
+      <h3 class="index__name" data-i18n-html="svc3.name">Creative<br>Direction</h3>
+      <p class="index__desc" data-i18n="svc3.desc">Concept, references, location, light key, shot list, sequence. Sometimes
+         I shoot it. Sometimes the useful thing is deciding what gets shot, and in what order.</p>
+    </li>
+  </ol>
+</section>
+
+<!-- ============================= CURRENTLY ============================= -->
+<section class="focus" id="focus" aria-labelledby="focus-title">
+  <p class="eyebrow"><span class="eyebrow__rule"></span><span data-i18n="nav.currently">Currently</span></p>
+  <h2 class="focus__title" id="focus-title" data-i18n="focus.title">What I'm looking for next</h2>
+
+  <ol class="focus__list">
+    <li><span class="focus__no">01</span><span data-i18n="focus.i1">Boutique hotels and independent hospitality</span></li>
+    <li><span class="focus__no">02</span><span data-i18n="focus.i2">Restaurants and bars with a point of view</span></li>
+    <li><span class="focus__no">03</span><span data-i18n="focus.i3">Fashion and lifestyle brands working in small runs</span></li>
+    <li><span class="focus__no">04</span><span data-i18n="focus.i4">Travel commissions across Europe</span></li>
+    <li><span class="focus__no">05</span><span data-i18n="focus.i5">Agencies who need someone to hold a concept, not just execute a shot list</span></li>
+  </ol>
+
+  <p class="focus__counter"><span data-i18n="focus.counter.k">Less useful for:</span> <span data-i18n="focus.counter.v">one-off headshots, event coverage, and
+     anything that has to be finished by Friday.</span></p>
+</section>
+
+<!-- ============================= CONTACT ============================= -->
+<section class="contact" id="contact" aria-labelledby="contact-title">
+  <div class="contact__inner">
+    <p class="eyebrow eyebrow--light"><span class="eyebrow__rule"></span><span data-i18n="cta.start">Start a project</span></p>
+
+    <h2 class="contact__title" id="contact-title" data-i18n-html="contact.title">Tell me what<br> it should<br> <em>feel</em> like.</h2>
+
+    <p class="contact__lede" data-i18n="contact.lede">The useful first message is short: what the place is, when it opens or
+       launches, and the feeling you're aiming at. Everything else we can work out.</p>
+
+    <a class="contact__mail" data-i18n-href="contact.mailto"
+       href="mailto:hello@alexcarter.studio?subject=Project%20enquiry&amp;body=What%20the%20place%20is%3A%0AWhen%3A%0AHow%20it%20should%20feel%3A%0A">
+      <span class="contact__mail-label" data-i18n="contact.maillabel">Email the studio</span>
+      <span class="contact__mail-addr">hello@alexcarter.studio</span>
+    </a>
+
+    <dl class="contact__meta">
+      <div><dt data-i18n="rail.based">Based</dt><dd>London, UK</dd></div>
+      <!-- placeholder handle: swap in the real profile URL when the account exists -->
+      <div><dt>Instagram</dt><dd>@alexcarter.studio</dd></div>
+      <div><dt data-i18n="contact.travel.k">Travel</dt><dd data-i18n="contact.travel.v">UK &amp; Europe</dd></div>
+    </dl>
+  </div>
+</section>
+
+</main>
+
+<footer class="foot">
+  <div class="foot__inner">
+    <div>
+      <p class="foot__mark">Alex Carter Studio</p>
+      <p class="foot__note" data-i18n="foot.note">Photographer &amp; Visual Director · London</p>
+    </div>
+    <a class="foot__top" href="#top" data-i18n="foot.top">Back to top</a>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js" defer></script>
+<script src="script.js" defer></script>
+</body>
+</html>
