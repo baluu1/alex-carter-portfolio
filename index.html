@@ -41,9 +41,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600&family=Instrument+Serif:ital@0;1&display=swap">
 
-<link rel="preload" as="image" href="assets/alex-figure.avif" type="image/avif"
-      imagesrcset="assets/alex-figure-sm.avif 340w, assets/alex-figure.avif 546w"
-      imagesizes="(max-width: 767px) 62vw, 36vw" fetchpriority="high">
+<link rel="preload" as="image" href="assets/alex-figure.png" type="image/png" fetchpriority="high">
 
 <link rel="stylesheet" href="style.css">
 
@@ -145,10 +143,12 @@
   </div>
 
   <div class="hero__stage" aria-hidden="false">
+    <!-- PNG only, on purpose. Apple's AVIF encoder tags the alpha plane with the
+         HEIC auxiliary URN (urn:mpeg:hevc:2015:auxid:1) rather than the AVIF one
+         (urn:mpeg:mpegB:cicp:systems:auxiliary:alpha), which WebKit does not accept
+         as alpha. Only the transparent cut-out is affected; the opaque photographs
+         elsewhere on the page stay on AVIF. -->
     <picture class="hero__figure" id="heroFigure">
-      <source type="image/avif"
-              srcset="assets/alex-figure-sm.avif 340w, assets/alex-figure.avif 546w"
-              sizes="(max-width: 767px) 62vw, 36vw">
       <img src="assets/alex-figure.png" width="420" height="1180"
            alt="Alex Carter at full length, camera in hand, lit from behind by warm low sun."
            data-i18n-alt="alt.figure"
